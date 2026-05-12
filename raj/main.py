@@ -602,3 +602,9 @@ if __name__ == "__main__":
         console.print(f"[bright_cyan]Follow @raj_dark_official on Instagram![/bright_cyan]")
     except Exception as e:
         console.print(f"\n[bright_red]❌ Fatal Error: {e}[/bright_red]")
+
+def cli():
+    main()
+
+if __name__ == "__main__":
+    cli()
